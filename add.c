@@ -1,16 +1,11 @@
-#include <stdio.h>
+public class Addition {
+    public static void main(String[] args) {
+        int a = 20;
+        int b = 30;
+        int sum = a + b;
 
-int main() {
-    int num1, num2, sum;
-
-    printf("Enter first number: ");
-    scanf("%d", &num1);
-
-    printf("Enter second number: ");
-    scanf("%d", &num2);
-
-    sum = num1 + num2;
-
-    printf("Sum = %d\n", sum);
-    return 0;
+        System.out.println("First Number : " + a);
+        System.out.println("Second Number: " + b);
+        System.out.println("Sum = " + sum);
+    }
 }
